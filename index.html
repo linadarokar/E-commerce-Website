@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!----font awesome---->
+    <script src="https://kit.fontawesome.com/4c828e3925.js" crossorigin="anonymous"></script>
+
+    <!----google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dosis:wght@600&family=DynaPuff&family=Raleway&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    
+    <!------cdn bootstrap-->
+  
+
+
+</head>
+<body>
+    <div class="container">
+        <!-------nav bar------>
+        <div class="nav-bar">
+            <a class="logo" href="./index.html"><span>&</span>Shop</a>
+            <nav>
+                <ul class="nav-links" id="menuItems">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./product-page.html">Products</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                
+                <a href="./sign-up-form.html"><i class="fa-solid fa-user"></i></a>
+                <a href="./cart-page.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            </nav>
+            <div class="burger " onclick="menutoggle()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+    <!---Banner --->
+    
+    <div class="banner">
+        <img src="https://publish-p33712-e119997.adobeaemcloud.com/content/dam/adityabirlafashionandretailprogram/categorypage/aug22/week-5/women/BestBuysWomen-D.jpg.transform/i1680x550/image.jpeg">
+    </div>
+
+    
+  
+     
+    <!---feature products------>
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <a href="./product-detail-page.html">
+                <div class="images">
+                    <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F72%2Fd1%2F72d172a079f5dd8231cac92270a1787f1a054f42.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/fullscreen]">
+                    <h3>Cotton T-shirt</h3>
+                    <p>Rs. 799</p>
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <div class="images">
+                <img src="https://lp2.hm.com/hmgoepprod?set=source[/83/0c/830c09a7d3fec286b08498adb63b387bde1f2ff5.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]">
+                <h3>Trainers</h3>
+                <p>Rs. 2799</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="images">
+                <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa4%2Fec%2Fa4ec00583d09799a03e587eb700caf124db61d86.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]">
+                <h3>Hoodie</h3>
+                <p>Rs. 2,299</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="images">
+                <img src="https://lp2.hm.com/hmgoepprod?set=source[/be/01/be01cd6415d79bae7e9b595273e135a094364208.jpg],origin[dam],category[],type[LOOKBOOK],res[w],hmver[1]&call=url[file:/product/main]">
+                <h3>cargo trousers</h3>
+                <p>Rs. 2,299</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="images">
+                <img src="https://pantaloons.imgix.net/img/app/product/6/653033-6609994.jpg?auto=format&fit=max&w=256">
+                <h3>Grey Solid Jacket</h3>
+                <p>Rs. 2,299</p>
+            </div>
+        </div>
+    </div>
+
+    <!----------trending now---->
+
+    <div class="small-container">
+
+        <h2 class="title">Trending Now</h2>
+        <div class="row">
+            <div class="images">
+                <img src="https://pantaloons.imgix.net/img/app/product/5/531483-4038019.jpg?auto=format&fit=max&w=256">
+                <h3>Solid Jeans</h3>
+                <p>Rs. 748</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="images">
+                <img src="https://pantaloons.imgix.net/img/app/product/7/709267-7728144.jpg?auto=format&fit=max&w=256">
+                <h3>Colourblock T-shirt</h3>
+                <p>Rs. 799</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="images">
+                <img src="https://pantaloons.imgix.net/img/app/product/6/696691-7770555.jpg?auto=format&fit=max&w=256">
+                <h3>Kurta Set</h3>
+                <p>Rs. 1,299</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="images">
+                <img src="https://pantaloons.imgix.net/img/app/product/7/723331-8012192.jpg?auto=format&fit=max&w=256">
+                <h3>White Regular Kurta</h3>
+                <p>Rs. 599</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="images">
+                <img src="https://pantaloons.imgix.net/img/app/product/6/640896-6394331.jpg?auto=format&fit=max&w=256">
+                <h3>Green Winter Jacket</h3>
+                <p>Rs. 3,499</p>
+            </div>
+        </div>
+    </div> 
+
+   
+
+    <!--small -Banner --->
+
+    <div class="small-banner">
+        <div class="banner-box">
+            <img src="https://publish-p33712-e119997.adobeaemcloud.com/content/dam/adityabirlafashionandretailprogram/refresh/sep/home/SeasonsBest-D.jpg.transform/i671x305/image.jpeg">
+        </div>
+        <div class="banner-box">
+            <img src="https://publish-p33712-e119997.adobeaemcloud.com/content/dam/adityabirlafashionandretailprogram/refresh/sep/home/NPT-D.jpg.transform/i671x305/image.jpeg">
+        </div>
+    </div>
+
+    <!------Offer zone----->
+
+    <div class="small-container">
+        
+        <div class="row">
+            
+            <div class="image1">
+                <img src="https://publish-p33712-e119997.adobeaemcloud.com/content/dam/adityabirlafashionandretailprogram/refresh/sep/women/mid-banners/Dresses-D.jpg.transform/i324x278/image.jpeg">
+                <h2>Dress</h2>
+                
+                <h3><i>Upto 60% off</i></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="image1">
+                <img src="https://publish-p33712-e119997.adobeaemcloud.com/content/dam/adityabirlafashionandretailprogram/refresh/sep/women/mid-banners/Kurtas-D.jpg.transform/i324x278/image.jpeg">
+                <h2>Kurta</h2>
+               
+                <h3><i>Upto 70% off</i></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="image1">
+                <img src="https://publish-p33712-e119997.adobeaemcloud.com/content/dam/adityabirlafashionandretailprogram/refresh/sep/men/offer/Shirts-D.jpg.transform/i324x278/image.jpeg">
+                <h2>Shirts</h2>
+                
+                <h3><i>Upto 55% off</i></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="image1">
+                <img src="https://publish-p33712-e119997.adobeaemcloud.com/content/dam/adityabirlafashionandretailprogram/refresh/sep/men/offer/Jeans-D.jpg.transform/i324x278/image.jpeg">
+                <h2>Jeans</h2>
+                
+                <h3><i>Upto 50% off</i></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="image1">
+                <img src="https://publish-p33712-e119997.adobeaemcloud.com/content/dam/adityabirlafashionandretailprogram/refresh/sep/men/offer/Shoes-D.jpg.transform/i324x278/image.jpeg">
+                <h2>Footwear</h2>
+                
+                <h3><i>Starting at Rs.279</i></h3>
+            </div>
+        </div>
+    </div>
+
+      <!---feature products------>
+      <div class="small-container">
+        <h2 class="title">Styles Recommended for You</h2>
+        <div class="row">
+            
+                <div class="image">
+                    <img src="https://pantaloons.imgix.net/img/app/product/6/623693-6038560.jpg?auto=format&fit=max&w=256">
+                    <h3>Black & White Top</h3>
+                    <p>Rs. 999</p>
+                </div>
+         
+        </div>
+        <div class="row">
+            <div class="image">
+                <img src="https://pantaloons.imgix.net/img/app/product/6/693870-7415232.jpg?auto=format&fit=max&w=256">
+                <h3>Printed Kurta Set</h3>
+                <p>Rs. 1,099</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="image">
+                <img src="https://pantaloons.imgix.net/img/app/product/7/764428-8785774.jpg?auto=format&fit=max&w=256">
+                <h3>Navy Shirt</h3>
+                <p>Rs. 599</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="image">
+                <img src="https://pantaloons.imgix.net/img/app/product/5/558980-4636821.jpg?auto=format&fit=max&w=256">
+                <h3>Embroidered Kurta</h3>
+                <p>Rs. 599</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="image">
+                <img src="https://pantaloons.imgix.net/img/app/product/6/651446-6564398.jpg?auto=format&fit=max&w=256">
+                <h3>Red Flat Sandal</h3>
+                <p>Rs. 399</p>
+            </div>
+        </div>
+    </div>
+
+    <!----Feature -->
+
+    <section id="features">
+          
+        <div class="icon-container">
+          <div class="img-wrapper">
+            <img src="https://pantaloons.imgix.net/img/app/brands/pantaloons/quickLinks/group.svg" alt="" />
+          </div>
+          <h4>Free Delivery</h4>
+        </div>
+
+        <div class="icon-container">
+          <div class="img-wrapper">
+            <img src="https://pantaloons.imgix.net/img/app/brands/pantaloons/quickLinks/easy_returns.svg" alt="" />
+          </div>
+          <h4>Easy Returns</h4>
+        </div>
+
+        <div class="icon-container">
+          <div class="img-wrapper">
+            <img src="https://pantaloons.imgix.net/img/app/brands/pantaloons/quickLinks/group-20.svg" alt="" />
+          </div>
+            <h4>Cash on Delivery</h4>
+        </div>
+             
+        <div class="icon-container">
+          <div class="img-wrapper">
+            <img src="https://pantaloons.imgix.net/img/app/brands/pantaloons/quickLinks/shape.svg" alt="" />
+          </div>
+          <h4>Secure Payment</h4>
+        </div>
+  
+        <div class="icon-container">
+          <div class="img-wrapper">
+            <img src="https://pantaloons.imgix.net/img/app/brands/pantaloons/quickLinks/group-21.svg" alt="" />
+          </div>
+          <h4>Free Alterations</h4>
+        </div>
+
+        <div class="icon-container">
+          <div class="img-wrapper">
+              <img src="https://pantaloons.imgix.net/img/app/brands/pantaloons/quickLinks/call_centre_worker.svg" alt="" />
+            </div>
+            <h4>24/7 Support</h4>
+        </div>
+    </section>
+    
+  <!-- FOOTER SECTION START -->
+    <footer>
+        
+        <ul class="online-store">
+            <li><h3>Online Store</h3></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Ladies</a></li>
+            <li><a href="#">kids</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Kids Accessories</a></li>
+        </ul>
+        <ul class="helpful-links">
+            <li><h3>Helpful Links</h3></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="patners">
+            <li><h3>Patners</h3></li>
+            <li><a href="#">Zara</a></li>
+            <li><a href="#">Pantaloons</a></li>
+            <li><a href="#">Levis</a></li>
+            <li><a href="#">Ucb</a></li>
+            <li><a href="#">H & M</a></li>
+            <li><a href="#">+ Many More</a></li>
+        </ul>
+        <ul class="address">
+            <li><h3>Address</h3></li>
+            <li>Building 101</li>
+            <li>Central Avenue</li>
+            <li>LA - 902722</li>
+            <li>United States</li>
+        </ul>
+        <ul class="social-links">
+            <li><h3>Keep in Touch</h3></li>
+            <li><a><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+    
+    </footer>
+
+
+
+
+   
+
+    <script src="index.js" type="text/javascript"></script>
+
+    
+</body>
+</html>

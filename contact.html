@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!----font awesome---->
+    <script src="https://kit.fontawesome.com/4c828e3925.js" crossorigin="anonymous"></script>
+
+    <!----google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dosis:wght@600&family=DynaPuff&family=Raleway&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    
+    <!------cdn bootstrap-->
+</head>
+<body>
+    <div class="container">
+        <!-------nav bar------>
+        <div class="nav-bar">
+            <a class="logo" href="./index.html"><span>&</span>Shop</a>
+            <nav>
+                <ul class="nav-links" id="menuItems">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./product-page.html">Products</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                
+                <a href="./sign-up-form.html"><i class="fa-solid fa-user"></i></a>
+                <a href="./cart-page.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            </nav>
+            <div class="burger " onclick="menutoggle()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <div class="background">
+        <div class="contact-page">
+            <div class="sub-page">
+                <div class="heading"> <h1>WE’D LOVE TO HEAR FROM YOU</h1></div>
+                <br/>
+              <p style="text-align:center;">You can chat with our Virtual assistant 24/7 for answers to frequently asked questions. You’ll be put through to a live agent if you need more help, during below opening hours.</p>
+              <br/>
+            </div>
+            <div class="contact-container">
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icons"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="textbox">
+                            <h3>Address</h3>
+                            <p>Building 101, Central Avenue  <br/> LA - 902722  <br/> UNITED STATES</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icons"><i class="fa-sharp fa-solid fa-phone"></i> </div>
+                        <div class="textbox">
+                            <h3>Phone</h3>
+                            <p>800 050 1633 </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icons"><i class="fa-solid fa-envelope"></i> </div>
+                        <div class="textbox">
+                            <h3>Email</h3>
+                            <p>customerservice@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icons"><i class="fa-solid fa-clock"></i></div>
+                        <div class="textbox">
+                            <h3>Opening Hours</h3>
+                            <p><b>Mon - Sat :</b> 8:00 AM to 20:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactForm">
+                    <form>
+                        <h2>Send Message</h2>
+                        <div class="inputBox">
+                            <input type="text" name="" required>
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="" required>
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea required></textarea>
+                            <span>Type your Message...</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" name="" value="Send">
+                        </div>    
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+     <!-- FOOTER SECTION START -->
+    <footer>
+        <ul class="online-store">
+            <li><h3>Online Store</h3></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Ladies</a></li>
+            <li><a href="#">kids</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Kids Accessories</a></li>
+        </ul>
+        <ul class="helpful-links">
+            <li><h3>Helpful Links</h3></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="patners">
+            <li><h3>Patners</h3></li>
+            <li><a href="#">Zara</a></li>
+            <li><a href="#">Pantaloons</a></li>
+            <li><a href="#">Levis</a></li>
+            <li><a href="#">Ucb</a></li>
+            <li><a href="#">H & M</a></li>
+            <li><a href="#">+ Many More</a></li>
+        </ul>
+        <ul class="address">
+            <li><h3>Address</h3></li>
+            <li>Building 101</li>
+            <li>Central Avenue</li>
+            <li>LA - 902722</li>
+            <li>United States</li>
+        </ul>
+        <ul class="social-links">
+            <li><h3>Keep in Touch</h3></li>
+            <li><a><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+    
+    </footer>
+   
+
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
